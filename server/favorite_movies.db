@@ -1,9 +1,0 @@
-DROP DATABASE IF EXISTS movies;
-DROP TABLE IF EXISTS favorite_movie (
-    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    title VARCHAR(500) NOT NULL,
-    poster_path VARCHAR(500),
-    vote_average INT,
-    release_date DATE,
-    overview VARCHAR(5000);
-)
