@@ -5,10 +5,10 @@ export class Favorite {
   @PrimaryColumn()
   id: number;
 
-  @Column()
+  @Column({ length: 500 })
   title: string;
 
-  @Column()
+  @Column({ length: 500 })
   poster_path: string;
 
   @Column()
@@ -17,6 +17,6 @@ export class Favorite {
   @Column()
   release_date: string;
 
-  @Column()
+  @Column({ length: 5000 })
   overview: string;
 }
