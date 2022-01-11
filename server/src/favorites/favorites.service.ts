@@ -19,6 +19,7 @@ export class FavoritesService {
     favorite.vote_average = createFavoriteDTO.vote_average;
     favorite.release_date = createFavoriteDTO.release_date;
     favorite.overview = createFavoriteDTO.overview;
+    favorite.favorite = createFavoriteDTO.favorite;
 
     if(favorite)
     

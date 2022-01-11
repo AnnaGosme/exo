@@ -19,4 +19,7 @@ export class Favorite {
 
   @Column({ length: 5000 })
   overview: string;
+
+  @Column()
+  favorite: boolean;
 }
